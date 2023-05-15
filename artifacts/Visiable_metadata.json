@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.9+commit.e5eed63a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Visiable.sol": "Visiable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Visiable.sol": {
+			"keccak256": "0xcf4aa80e8026490320a240cd60659741e716bcc1b77aff856c16cd09687d6ef8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://673597ebc2a9a765ecfbc28c07f5b5096fbb8e713f6de59fdf31ca610b776cd2",
+				"dweb:/ipfs/QmdY7c3fj291698kj83Uywe9xH6dcczi2sAm2BEFFqxLgu"
+			]
+		}
+	},
+	"version": 1
+}

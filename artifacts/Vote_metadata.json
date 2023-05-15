@@ -1,0 +1,205 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "votedNamelist",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "voteSuccess",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "board",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "votedName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalAmountOfvoted",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "delegatoredAddress",
+						"type": "address"
+					}
+				],
+				"name": "delegate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBoardInfo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "votedName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "totalAmountOfvoted",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Vote.Board[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "host",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "addressList",
+						"type": "address[]"
+					}
+				],
+				"name": "mandate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "targetVotedId",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "voters",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "numberOfVote",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isVoted",
+						"type": "bool"
+					},
+					{
+						"internalType": "address",
+						"name": "delegatorAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "targetVotedId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Vote.sol": "Vote"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Vote.sol": {
+			"keccak256": "0x909e6f9ffbf7c8a68d34441500c043a9a190b45487da643272e3317d25cb6d51",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7be4a46b0e2cc97c31255824b968d78e126c79717ca5c89ab7e2b472dcd32318",
+				"dweb:/ipfs/QmWRuTXoUe17qK625JrC7MdVpuhqrcoJCRKVTMkeC2mGNN"
+			]
+		}
+	},
+	"version": 1
+}
